@@ -1,10 +1,12 @@
 # **Suno AI Prompting Guide**
 
-Welcome to the Suno AI Prompting Guide\!
+Welcome to my Suno AI Prompting Guide\!
 
 ## **Introduction**
 
-Suno AI is a powerful tool that transforms natural language prompts into music using sophisticated language processing. This guide aims to provide a comprehensive overview of prompting techniques, ranging from introductory concepts to advanced strategies, enabling users to craft everything from straightforward compositions to highly complex musical creations.
+If you are here, you already know the basics of Suno and want to get freaky! This is designed just for that purpouse. Feel free to drop this entire document into your LLM of choice and empower it to write complex song prompts for you to give to Suno!
+
+I've included a bunch of style-tags, and wierd examples, to really push through your limits.
 
 This repository organizes the guide into several key sections for easy navigation and reference.
 
