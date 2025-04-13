@@ -56,17 +56,13 @@ This guide is broken down into the following sections:
 This guide is licensed under the [Creative Commons Attribution 4.0 International License](http://docs.google.com/LICENSE). (Note: Please replace LICENSE with a file containing your chosen license, e.g., CC BY 4.0 or MIT).
 
 ### **Contributing**
-
-Contributions are welcome\! If you have suggestions, corrections, new style tags, or examples, please feel free to open an issue or submit a pull request. See CONTRIBUTING.md for more details. (Note: Create a CONTRIBUTING.md file outlining contribution guidelines).
+I am super open to suggestions!
+If you have suggestions, corrections, new style tags, or examples, please feel free to open an issue or submit a pull request. See CONTRIBUTING.md for more details. (Note: Create a CONTRIBUTING.md file outlining contribution guidelines).
 
 ### **Topics/Tags**
-
 Suggested GitHub topics for discoverability: suno-ai, ai-music, prompt-engineering, music-generation, guide, prompt-guide.
 
 ### **Releases**
+FUTURE: Consider creating a GitHub release (e.g., v1.0) once the guide reaches a stable version.
 
-Consider creating a GitHub release (e.g., v1.0) once the guide reaches a stable version.
-
-## **Resources**
-
-* [Suno AI Official Website](https://suno.ai/)
+~Shine
