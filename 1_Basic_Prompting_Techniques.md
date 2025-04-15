@@ -1,4 +1,4 @@
-# **Basic Prompting Techniques**
+# **Normal Prompting Techniques**
 
 This section covers the fundamental concepts for structuring your prompts and describing the music you want Suno AI to generate.
 
