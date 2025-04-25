@@ -134,12 +134,17 @@ The original guide included highly experimental concepts using mathematical symb
 4. **Humor Through Juxtaposition:** Create funny scenarios (e.g., "A rap battle between a toaster and a microwave").  
 5. **Hyper-Specific Characters:** Define unique vocal personas (e.g., "A crooning vampire," "A rapping robot historian").
 
-## **Working with Censorship**
+## **Censorship and Content --- Working with Censorship**
 
 Suno handles explicit content contextually.
 
-* Terms like "nigga," "shit," or "fuck" *might* be included if deemed appropriate for the song's context by the AI, but may also be censored or refused.  
-* Using asterisks (e.g., f\*\*\*) or writing \[censored\] might result in bleeping effects, silence, or sometimes the AI saying the actual word anyway. It depends on the specific generation and the AI's interpretation. Proceed with caution and awareness of platform guidelines.
+* Terms like "nigga," "shit," or "fuck" *might* be included if deemed appropriate for the song's context by the AI, but may also be censored or refused.
+* Basically, Suno will swear and talk about gross stuff, here’s how to do it.
+* You can simply put the swear word into the text, or, for more interesting and varied musical results the use of asterisks or "censored" may produce really cool effects:
+***, makes a “bleep” sound**
+* standard radio edit “bleep”. Cuts out all audio temporarily. Jarring.
+* N************, will often say the N-word, and then mix a scratch record over it, or even a “bleep”, but usually mixes into the rest of the lyrics and background music harmonically, usually pleasingly.
+* It depends on the specific generation and the AI's interpretation. Proceed with caution and awareness of platform guidelines.
 
 ## **Complex Narrative Example**
 
