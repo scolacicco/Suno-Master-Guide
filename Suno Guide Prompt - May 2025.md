@@ -151,20 +151,21 @@ Suno will create excellent songs just from a smart, dense prompt in the Styles c
 * `::` : Signifies repetition or emphasis on a phrase.  
 * `( )` : Used for callbacks that provide context or a recurring theme.  
 * `{ }` : Demarcates distinct vocal elements or section variations.  
-* `\* /*` : Marks unique vocal transitions or pauses for dramatic effect.  
 * `-` or `--`: Implies seamless continuation, reducing pause between phrases.  
 * `" "`: Signifies emphasis, often for singing or standout lyrics.  
-* `\* \*`: Denotes reinforced emphasis, akin to textual boldness.  
 * `?` : Introduces a questioning or reflective tone.  
 * `!` : Conveys strong emotion or emphasis, similar to all caps in text.  
 * `;` : Separates elements in a list or adds a pause within sentences.  
 * `...` : Indicates an ongoing thought, creating suspense or trailing off.  
-* `***` : Classic radio edit "BLEEP\!"  
 * `&` : Serves as a connector, blending contrasting ideas or merging lyrical themes into a unified narrative.   
-* `$` : Highlights value, often marking pivotal lines or elements within lyrics that carry a deeper significance.   
+* `$` : Highlights value, often marking pivotal lines or elements within lyrics that carry a deeper significance.
+* `✧･ﾟ`: Use of ASCII encourages instrumentation or vocal solo, often instrumental or non-lyrical singing.
+* `*` : In general, use asterisks sparingly. They have a complex effect which should not be overplayed.
+* `\* /*` : Marks unique vocal transitions or pauses for dramatic effect.  
+* `\* \*`: Denotes reinforced emphasis, akin to textual boldness.  
+* `***` : Classic radio edit "BLEEP\!"  
 * “`*'..`” : Denotes the onset of change, signaling transitions to new verses or dynamic shifts within a storyline.   
 * “`..'*`” : Indicates closure or culmination, bringing thematic elements to a satisfying or impactful conclusion.  
-* `✧･ﾟ`: Marks a moment of tonal shift, signifying an emotional or thematic deepening of the message.
 
 These notations serve not only as directives for delivery but as tools for evoking emotion and enhancing narrative flow. Employed wisely, they guide comprehension and accessibility, bridging creative expression with technical adeptness. 
 
