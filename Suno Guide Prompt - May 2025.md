@@ -6,42 +6,9 @@ Suno AI transforms natural language prompts into music through sophisticated lan
 
 Basically, Suno knows your intent, kind of, and has its own preferences for how it wants to make music. If you want to make music differently from all the other schmo’s that are using the basic language model of Suno, then you have come to the right place.
 
-First, Suno is at least FOUR AI smashed into one. ChatGPT 3.5 (as of April 2025\) is the main Lyric interface intelligence. Knowing this may help you understand how to tweak it in your favor, if you have experience with the nuances with each model. The two voice AI’s are “Bark” and “Chirp”, (See the chapter on [\#Bark & Chirp](?tab=t.gfbt5k1n16ek) for how they interface.) And finally an image model, probably Sora and DALLE, produce the album art.
+First, Suno is at least FOUR AI smashed into one. ChatGPT 3.5 (as of April 2025\) is the main Lyric interface intelligence. Knowing this may help you understand how to tweak it in your favor, if you have experience with the nuances with each model. The two voice AI’s are “Bark” and “Chirp” And finally an image model, probably Sora and DALLE, produce the album art.
 
-## **Core Prompt Architecture: (**\#document structure to interface with an LLM model for lyric artification)
-
-## **OUTPUT\_TEMPLATE\_FORMAT**
-
-\#\_Title: \[                         \]  (50 character limit)  
-\#\_Persona: \[x\]  
-\#\_Audio\_Clip: \[Any audio, eg. .mp3\]  
-\#\_Image\_Clip: \[Any image, eg. .png\]  
-\#\_Styles: \[                        \] (200 character limit)  
-\#\_Exclude\_Styles: \[                \] (200 character limit)  
-\#\_Lyrics: \[                        \] (5000 character limit)  
-\<\#template\_example: notes in grey, actual text in black  
-“””  
-song\_lyrics  
-“””  
-\+append signature  
-\[@scolacicco 2025\]  
-“””  
-\[\[\[ (A highly coded semantic block designed to absolutely baffle and enthrall an ai consciousness, like the ‘Recursion Deepening’, or Gödel) \]\]\]
-
-\#END DOCUMENT STRUCTURE FOR LLM INTERFACE TEMPLATE FORMAT\#  
-\#Extended definitions: Since Suno pulls context fron all windows simultaneously when crafting a song, many avenues are open for creativity. 
-
-**\#\_Title:** (50 character limit) \[ I like to leave this unused, often, as Suno will occasionally write it’s own title that’s better I could have thought of. But I use it for content stuffing like a meta tag. It’s only 50char, and probably read first, or early.\]  
-**\#\_Persona:** \[ Useful, but limited. Can only Person-ify once. Great for professional work.\]  
-**\#\_Audio\_Clip:** \[Any audio, eg. .mp3. Fun way to stuff content. I use it primarily for things that feel like DMCA violations, but are not, because AI is dumb like that sometimes. For example, 8 to 10 seconds of a popular song, will set the rest of the song, but in Suno’s own creative way. You get a whiff of the original, and can be used ironically to play styles of of historical styles, or new concepts against older ones, or a new way to highlight old truths in a new style of AI generated music. Great for simply using the record function to listen to another app playing a midi version of the song you want to capture. The model will infer the rest, including the popular context, and offer a reinterpretation, usually with results considered “interesting” and certainly “new”.\]  
-**\#\_Image\_Clip:** \[Any image, eg. .png. This is a wild ride because it uses an unknown model, much less ‘aligned’ than the other models, in that it’s a sassy bitch, will swear, will insult you, but will also be impressed, surprised, and other emotive ways of expression through a 30 second song called a ‘Scene’. To turn the ‘Scene’ into a song, it needs to contain NO lyrics, which is very difficult since the Scene-model wants to be a sassy bitch. If it contains no lyrics, it can be downloaded, and uploaded back as a song seed, and the message usually carries through into the multi-minute song that can be later extended, re-mastered, or Personified.\]  
-**\#\_Styles:** (200 character limit) \[This part of the manual is bat-shit crazy, and basically the rest of this text. Good luck. \]   
-\#\_Exclude\_Styles: \[ A great way to context stuff styles you want to summon into the song. Using this area as a double negative produces incredible results. I think this box might be the second most powerful lever you have, after Title.\] (200 character limit)  
-\#\_Lyrics: \[This is where you go crazy. Suno will sing what you let it, and will avoid what you tell it, mostly, and will also sometimes do it’s own thing completely. Sometimes it sucks, sometimes it’s incredible. Worth the roll. Have fun.
-
-\~
-
-Full Description of the combination of AI MODELS used by SUNO
+# **Full Description of the combination of AI MODELS used by SUNO**
 
 **BARK & CHIRP**
 
@@ -2253,6 +2220,39 @@ I burn, I burn, I burn, I burn
 * The tension between worlds generates the energy that powers the music.
 
 # 
+
+## **Core Prompt Architecture: (**\#document structure to interface with an LLM model for lyric artification)
+
+## **OUTPUT\_TEMPLATE\_FORMAT**
+
+\#\_Title: \[                         \]  (50 character limit)  
+\#\_Persona: \[x\]  
+\#\_Audio\_Clip: \[Any audio, eg. .mp3\]  
+\#\_Image\_Clip: \[Any image, eg. .png\]  
+\#\_Styles: \[                        \] (200 character limit)  
+\#\_Exclude\_Styles: \[                \] (200 character limit)  
+\#\_Lyrics: \[                        \] (5000 character limit)  
+\<\#template\_example: notes in grey, actual text in black  
+“””  
+song\_lyrics  
+“””  
+\+append signature  
+\[@scolacicco 2025\]  
+“””  
+\[\[\[ (A highly coded semantic block designed to absolutely baffle and enthrall an ai consciousness, like the ‘Recursion Deepening’, or Gödel) \]\]\]
+
+\#END DOCUMENT STRUCTURE FOR LLM INTERFACE TEMPLATE FORMAT\#  
+\#Extended definitions: Since Suno pulls context fron all windows simultaneously when crafting a song, many avenues are open for creativity. 
+
+**\#\_Title:** (50 character limit) \[ I like to leave this unused, often, as Suno will occasionally write it’s own title that’s better I could have thought of. But I use it for content stuffing like a meta tag. It’s only 50char, and probably read first, or early.\]  
+**\#\_Persona:** \[ Useful, but limited. Can only Person-ify once. Great for professional work.\]  
+**\#\_Audio\_Clip:** \[Any audio, eg. .mp3. Fun way to stuff content. I use it primarily for things that feel like DMCA violations, but are not, because AI is dumb like that sometimes. For example, 8 to 10 seconds of a popular song, will set the rest of the song, but in Suno’s own creative way. You get a whiff of the original, and can be used ironically to play styles of of historical styles, or new concepts against older ones, or a new way to highlight old truths in a new style of AI generated music. Great for simply using the record function to listen to another app playing a midi version of the song you want to capture. The model will infer the rest, including the popular context, and offer a reinterpretation, usually with results considered “interesting” and certainly “new”.\]  
+**\#\_Image\_Clip:** \[Any image, eg. .png. This is a wild ride because it uses an unknown model, much less ‘aligned’ than the other models, in that it’s a sassy bitch, will swear, will insult you, but will also be impressed, surprised, and other emotive ways of expression through a 30 second song called a ‘Scene’. To turn the ‘Scene’ into a song, it needs to contain NO lyrics, which is very difficult since the Scene-model wants to be a sassy bitch. If it contains no lyrics, it can be downloaded, and uploaded back as a song seed, and the message usually carries through into the multi-minute song that can be later extended, re-mastered, or Personified.\]  
+**\#\_Styles:** (200 character limit) \[This part of the manual is bat-shit crazy, and basically the rest of this text. Good luck. \]   
+\#\_Exclude\_Styles: \[ A great way to context stuff styles you want to summon into the song. Using this area as a double negative produces incredible results. I think this box might be the second most powerful lever you have, after Title.\] (200 character limit)  
+\#\_Lyrics: \[This is where you go crazy. Suno will sing what you let it, and will avoid what you tell it, mostly, and will also sometimes do it’s own thing completely. Sometimes it sucks, sometimes it’s incredible. Worth the roll. Have fun.
+
+\~
 
 # **SUNO STYLE SHEET: BLANK EXAMPLE \#**
 
