@@ -12,36 +12,43 @@ First, Suno is at least FOUR AI smashed into one. ChatGPT 3.5 (as of April 2025\
 
 **BARK & CHIRP**
 
-* **Bark**
+Bark and Chirp channels can be split in the Web application using the 'Get Stems' function under the Create function.
+
+*/*/ **Bark** */*/
 
 Bark is a neural network focusing on intricate harmonic structures and rhythm patterns. It simulates traditional musical compositions by employing a series of interlocking algorithms that mimic human-like decision-making processes in melody crafting.  
-  \- Starts with a vast dataset of diverse musical genres to understand different musical styles and cultural contexts.  
-  \- The input layer receives MIDI files, musical notations, or even raw audio, allowing the model to analyze melodies, harmonies, and rhythms.  
-2\. \*\*Feature Extraction\*\*:  
+
+* **Melody Crafting**
+    Starts with a vast dataset of diverse musical genres to understand different musical styles and cultural contexts.  
+  \- The input layer receives MIDI files, musical notations, or even raw audio, allowing the model to analyze melodies, harmonies, and rhythms.
+* **Feature Extraction**:  
   \- Uses convolutional layers to identify key features such as tempo, pitch, and dynamics.  
   \- Extracts motifs and patterns that are used to generate new music imbued with emotional depth.  
-3\. \*\*Melody Generation\*\*:  
+* ***Melody Generation**:  
   \- After understanding the core musical patterns, Bark employs a recurrent neural network (RNN) architecture.  
   \- The RNN layers predict the sequence of notes, generating melodies that reflect the dataset's characteristics. These layers ensure coherence and complexity in the compositions.  
-4\. \*\*Optimization\*\*:  
+* **Optimization**:  
   \- It iterates over numerous compositions, refining its decision paths for more sophisticated creations.  
   \- Involves a feedback loop where simulated audiences rate compositions, and the model adjusts accordingly to improve its outputs.
+  \- In the real world, Bark ends up being the main vocals, and main instrumentation track. Bark is usually not the percussion. Bark chants.
 
-* **Chirp**	  
-  Chirp emphasizes short, catchy tunes and motifs. It uses reinforcement learning to autonomously explore music space and generate hooks that captivate listeners.  
+*/*/ **Chirp** */*/
+
+Chirp emphasizes short, catchy tunes and motifs. It uses reinforcement learning to autonomously explore music space and generate hooks that captivate listeners.  
     
-1. **Initial Hook Generation**  
-   1. Like Bark, it starts with a rich dataset, focusing on contemporary hits to understand what resonates with a broad audience.  
-   2. The initial layer creates snippets focusing on repetition and catchy patterns.  
-2. **Reinforcement Learning Loop:**  
-   1. Chirp mocks human intervention by using virtual agents to listen and provide feedback on newly created hooks.  
-   2. Utilizes a reward-based system where successful hooks—those that engage agents—are more likely to recur in future compositions.  
-3. **Evaluation and Combination**  
-   1. Combines successful hooks with varying harmonic structures.  
-   2. Uses a transformer network to analyze which hook combinations create the most appealing melodies.  
+* **Initial Hook Generation**  
+   /- Like Bark, it starts with a rich dataset, focusing on contemporary hits to understand what resonates with a broad audience.  
+   /- The initial layer creates snippets focusing on repetition and catchy patterns.  
+* **Reinforcement Learning Loop:**  
+   /- Chirp mocks human intervention by using virtual agents to listen and provide feedback on newly created hooks.  
+   /- Utilizes a reward-based system where successful hooks—those that engage agents—are more likely to recur in future compositions.  
+*. **Evaluation and Combination**  
+   /- Combines successful hooks with varying harmonic structures.  
+   /- Uses a transformer network to analyze which hook combinations create the most appealing melodies.  
 4. **Final Composition**:  
-   1. The final layer synthesizes successful hook combinations into a full composition with intro, verses, and possible bridges.  
-   2. Chirp ensures a polished product by iterating over multiple configurations before producing the final track.
+   /- The final layer synthesizes successful hook combinations into a full composition with intro, verses, and possible bridges.  
+   /- Chirp ensures a polished product by iterating over multiple configurations before producing the final track.
+   /- In the real world, Chirp ends up making the percussive, background track to the song.
 
 **‘SCENES’ MODEL**
 
