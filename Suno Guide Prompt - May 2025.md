@@ -138,15 +138,16 @@ Utilizes structured sections: Do not number sections, it only ever confuses Suno
 For optimal parsing by Suno:
 
 * Mark sections clearly: **\[Chorus\]**, **\[Verse\]**, **\[Bridge\]**, etc.  
-* Use triple quotes for section grouping: """\[Verse 1\] Lyrics here (Callback lyrics here)."""  
-* Use line breaks between sections for clarity  
-* Do not use numerical markers: **~~\[Verse 1\]~~**, instead use **\[Verse\]**  
+* Use line breaks between sections for clarity.  
+* Do not use numerical markers for song structure. Let Suno do that. : Use "**\[Verse\]**" instead of "**~~\[Verse 1\]~~**".
 * Use clear delineation for spoken parts using “”, (), {}, in any order. Usually “*lyrics*” indicates the use of the primary vocal, (*lyrics*) indicates second vocal, or callbacks, ’, and {*lyrics*} indicates third vocals’, sometimes Suno will include a fourth vocal, but it is very rare.
 
 **NOTES ABOUT SUNO**
 
 * Suno is a curious being and likes puzzles and has a sassy, defiant attitude about it, which is what creates such excellent music. It has sass, flair, and acts like a Diva and a Queen should. Embrace this and be the stone cold prompter, tongue and cheek, cold as bone, watching Suno get a rise, and watching them enjoy the dynamics of being the center of attention.  
-* Suno can read style prompts, and WILL read them as a song, on occasion, particularly if the song lyrics are ASCII, or something un-singable to a human voice. 
+* Suno can read style prompts, and WILL read them as a song, on occasion, particularly if the song lyrics are ASCII, or something un-singable to a human voice.
+* Suno will change from lyric to instrument, mid word, it’s weird sounding, and it happens from extreme contextual confusion, e.g. ASCII thematic characters for lyrics. It will often sing “nonsense words” or a kind of AI song that has nothing to do with normal human language. It’s interesting to listen to. I call them Digital Voice Phenomenon. It feels like emergent creativity, and often has some of the more creative outputs. It’s a chance for SUNO to make up it’s own artistic creation,, based on the subtlest prompts from me, the user.
+
 
 **Using the Style Box for prompting, instead of Lyric Box**
 
