@@ -1,6 +1,9 @@
 # **Advanced Suno AI Music Generation Prompt Guide**
 
-# TL;DR Version:  The Suno AI Music Generation Prompt Guide provides advanced techniques for transforming natural language into music. Suno AI integrates multiple AI models, including:
+# TL;DR Version:
+
+The Suno AI Music Generation Prompt Guide provides advanced techniques for transforming natural language into music. 
+Suno AI integrates multiple AI models, including:
 
 * **ChatGPT 3.5**: The primary intelligence for lyric interface.  
 * **Bark and Chirp**: Two distinct voice AIs.  
