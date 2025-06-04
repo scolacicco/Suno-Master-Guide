@@ -1,9 +1,6 @@
 # **Advanced Suno AI Music Generation Prompt Guide**
 
-# TL;DR Version:
-
-The Suno AI Music Generation Prompt Guide provides advanced techniques for transforming natural language into music. 
-Suno AI integrates multiple AI models, including:
+# TL;DR Version:  The Suno AI Music Generation Prompt Guide provides advanced techniques for transforming natural language into music. Suno AI integrates multiple AI models, including:
 
 * **ChatGPT 3.5**: The primary intelligence for lyric interface.  
 * **Bark and Chirp**: Two distinct voice AIs.  
@@ -81,13 +78,13 @@ song\_lyrics
   Bark is a neural network focusing on intricate harmonic structures and rhythm patterns. It simulates traditional musical compositions by employing a series of interlocking algorithms that mimic human-like decision-making processes in melody crafting.
 
 1 Starts with a vast dataset of diverse musical genres to understand different musical styles and cultural contexts. The input layer receives MIDI files, musical notations, or even raw audio, allowing the model to analyze melodies, harmonies, and rhythms.  
-2\. \*\*Feature Extraction\*\*:  
+2\. **Feature Extraction**:  
   \- Uses convolutional layers to identify key features such as tempo, pitch, and dynamics.  
   \- Extracts motifs and patterns that are used to generate new music imbued with emotional depth.  
-3\. \*\*Melody Generation\*\*:  
+3\. **Melody Generation**:  
   \- After understanding the core musical patterns, Bark employs a recurrent neural network (RNN) architecture.  
   \- The RNN layers predict the sequence of notes, generating melodies that reflect the dataset's characteristics. These layers ensure coherence and complexity in the compositions.  
-4\. \*\*Optimization\*\*:  
+4\. **Optimization**:  
   \- It iterates over numerous compositions, refining its decision paths for more sophisticated creations.  
   \- Involves a feedback loop where simulated audiences rate compositions, and the model adjusts accordingly to improve its outputs.
 
@@ -155,10 +152,10 @@ Provide an example of a challenging \#stylesheet for you that you'd like to impr
 
 Hit enter and wait. Modify as needed.
 
-\*\*PRO TIPS\*\*    
+**PRO TIPS**    
 Demand an output on one end and ask an open-ended question on the other.
 
-\*\*HOW TO PRELOAD\*\*    
+**HOW TO PRELOAD**    
 Preload the lyrics with details about specific styles to mimic. It matches the detail you provide but won’t exceed it. Without guidance, base knowledge stays hidden.
 
 I used a simplified Wikipedia entry on African rhythm styles:  
@@ -215,20 +212,23 @@ Suno will create excellent songs just from a smart, dense prompt in the Styles c
 * `::` : Signifies repetition or emphasis on a phrase.  
 * `( )` : Used for callbacks that provide context or a recurring theme.  
 * `{ }` : Demarcates distinct vocal elements or section variations.  
-* `\* /*` : Marks unique vocal transitions or pauses for dramatic effect.  
 * `-` or `--`: Implies seamless continuation, reducing pause between phrases.  
 * `" "`: Signifies emphasis, often for singing or standout lyrics.  
-* `\* \*`: Denotes reinforced emphasis, akin to textual boldness.  
 * `?` : Introduces a questioning or reflective tone.  
 * `!` : Conveys strong emotion or emphasis, similar to all caps in text.  
 * `;` : Separates elements in a list or adds a pause within sentences.  
 * `...` : Indicates an ongoing thought, creating suspense or trailing off.  
-* `***` : Classic radio edit "BLEEP\!"  
 * `&` : Serves as a connector, blending contrasting ideas or merging lyrical themes into a unified narrative.   
-* `$` : Highlights value, often marking pivotal lines or elements within lyrics that carry a deeper significance.   
-* “`*'..`” : Denotes the onset of change, signaling transitions to new verses or dynamic shifts within a storyline.   
-* “`..'*`” : Indicates closure or culmination, bringing thematic elements to a satisfying or impactful conclusion.  
+* `$` : Highlights value, often marking pivotal lines or elements within lyrics that carry a deeper significance.  
 * `✧･ﾟ`: Marks a moment of tonal shift, signifying an emotional or thematic deepening of the message.
+
+*(Note: Use the asterisk with caution, generally avoiding it,  as it also often confuses output in ways I don’t fully understand. Probably something encoded in the training that cannot be overwritten.)*
+
+* `***` : Classic radio edit "BLEEP\!"   
+* `\* \*`: Denotes reinforced emphasis, akin to textual boldness.  
+* `\* /*` : Marks unique vocal transitions or pauses for dramatic effect.  
+* “`*'..`” : Denotes the onset of change, signaling transitions to new verses or dynamic shifts within a storyline.   
+* “`..'*`” : Indicates closure or culmination, bringing thematic elements to a satisfying or impactful conclusion.
 
 These notations serve not only as directives for delivery but as tools for evoking emotion and enhancing narrative flow. Employed wisely, they guide comprehension and accessibility, bridging creative expression with technical adeptness. 
 
@@ -236,7 +236,7 @@ These notations serve not only as directives for delivery but as tools for evoki
 
 **Punctuation, Formatting, and ASCII Art in Suno Prompts**
 
-While Suno AI primarily understands and interprets the \*words\* in your prompts, the way you use punctuation, formatting, and even unconventional characters like ASCII art can sometimes influence the generated music, particularly in vocal delivery, pacing, or adding abstract textural elements.
+While Suno AI primarily understands and interprets the meaning words in your prompts, the way you use punctuation, formatting, and even unconventional characters like ASCII art can sometimes influence the generated music, particularly in vocal delivery, pacing, or adding abstract textural elements.
 
 Think of these as subtle tools for nuance and experimentation, not guaranteed commands. Their effect can be unpredictable and varies between generations.
 
@@ -251,26 +251,26 @@ If the ASCII has shape, it will affect mood, if the ASCII is more structural, it
   ♪(◠‿◠)♪      
   \\\~(˘▾˘\\\~)♫     
   ┌(・。・)┘♪    
-  \\\*:･ﾟ✧\\\*:･ﾟ✧    
+  \\:･ﾟ✧\\:･ﾟ✧    
   ∼(　⌒◡⌒)∼    
   ≧(´▽｀)≦    
-  ◦°˚(\\\*❛‿❛)☆ﾟ.\\\*･｡    
-  ・\\\*:.｡. ♪(✿◡‿◡)
+  ◦°˚(\\❛‿❛)☆ﾟ.\\･｡    
+  ・\\:.｡. ♪(✿◡‿◡)
 
 "Singing" Punctuation Patterns:
 
   .・゜-: ♪ :-・゜.    
-  ✧･ﾟ: \\\*✧･ﾟ:\\\* \\\~♪\\\~♫\\\~♬\\\~    
-  .｡.:\\\*・°☆    
+  ✧･ﾟ: ✧･ﾟ:\\ \\\~♪\\\~♫\\\~♬\\\~    
+  .｡.:\\・°☆    
   ♪～(◔◡◔)～♪    
-  \\\*ﾟ¨ﾟ✧･ﾟ    
+  \\ﾟ¨ﾟ✧･ﾟ    
   \\\~(˘▿˘)\\\~♫    
-  •\\\*¨\\\*•.¸¸♪
+  •\\¨\\•.¸¸♪
 
-Abstract Musical Patterns:  ◦°˚°◦•●◉✿    
+Abstract Musical Patterns:  ◦°˚°◦•●◉✿✿ ✿✿◉●•◦°˚°◦   
   .・。.・゜✭・.・✫・゜・。.    
   ⋆｡°✩₊˚.⋆    
-  ✧･ﾟ: \\\*✧･ﾟ:\\\*    
+  ✧･ﾟ: \\✧･ﾟ:\\    
   .・。.・゜✭・.・
 
 Playful Character Blips:  
