@@ -6,5 +6,6 @@ I struggled finding good documentation for it, so I wrote  my own.
 
 I hope you enjoy it!
 
-~S
+~Skot
+
 May 26, 2025
